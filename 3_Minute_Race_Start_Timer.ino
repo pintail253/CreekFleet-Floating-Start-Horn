@@ -1,13 +1,13 @@
 /* 3 Minute Race Start Timer*/
 
-int buttonPin = 6;  //Channel for input pushbutton
+int buttonPin = 10;  //Channel for input pushbutton
 
 // setup initializes serial and the button pin
 
 void setup() {
   Serial.begin(9600);
   pinMode(buttonPin, INPUT_PULLUP); // sets the digital pin 6 as input with internal 20k pullup
-  pinMode(9, OUTPUT);    // sets the digital pin 9 as output
+  pinMode(11, OUTPUT);    // sets the digital pin 9 as output
 }
 
 // loop checks the button pin each time,
